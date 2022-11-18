@@ -50,3 +50,8 @@ li:nth-child(2n):before{
 li:nth-child(3n):before{
   content: "\2746";
 }
+
+input[type=text]:disabled {
+  background: #4b4b48;
+}
+
