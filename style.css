@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(230, 243, 255);
 }
 
 .footer-basic {
@@ -31,6 +31,27 @@ body{
    color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   }
- 
+  li {
+    list-style: none; 
+  }
+  
+li:first-child::before{
+  content: "\2746" ;
+}
 
- 
+li:last-child::before{
+  content: "\2746" ;
+}
+
+li:nth-child(2n):before{
+  content: "\6246";
+}
+
+li:nth-child(3n):before{
+  content: "\2746";
+}
+
+input[type=text]:disabled {
+  background: #4b4b48;
+}
+
