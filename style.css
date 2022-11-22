@@ -66,3 +66,17 @@ input:focus{
 input:checked{
 accent-color: yellow;
 }
+
+.card-img-top{
+  border: solid;
+  color: aliceblue;
+  border-radius: 25px!important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-text{
+  border:solid;
+  border-color:aliceblue;
+  border-radius:20px;
+}
