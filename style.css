@@ -84,4 +84,5 @@ accent-color: yellow;
 #contactForm{
   background-color: aliceblue;
   box-shadow: 15px 15px 10px rgb(192, 230, 243);
+  margin-top: 20px;
 }
