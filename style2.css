@@ -1,81 +1,132 @@
-main{
+main {
     margin: 0 25px;
 }
 
 @font-face {
     font-family: 'MyWebFont';
-    src: url('PatrickHand-Regular.ttf')  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-.textbox{
+    src: url('PatrickHand-Regular.ttf');
+   
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+ 
+@font-face {
+    font-family: myFirstFont;
+    src: url('KGILikeToMoveIt.ttf');
+
+}
+
+
+
+.textbox {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
     font-weight: 800;
-    font-size: larger;
+    font-size: 32px;
     letter-spacing: 0.3em;
     text-shadow: 2px 2px 3px rgb(187, 132, 132);
+
 }
 
-.text{
-   margin-top: 50px;
+.text {
+    margin-top: 50px;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: start;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.flex-item1{
-   max-width: 300px;
-   background-image: url(/foto/nude1.png);
-   width:100%;
-   height:300px;
-   background-position: center;
-   margin: 25px;
-   padding: 1px;
- 
-   }
+.flex-item1 {
+    max-width: 300px;
+    background-image: url(/foto/nude1.png);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    margin: 25px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+
+}
 
 
-.fi-center{
+.fi-center {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-   .h1{
+
+.h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: grey;
     font-style: oblique;
     letter-spacing: 0.2em;
 
-   }
+}
 
-   .h2{
+.h2 {
     transform: rotate(20deg);
     display: flex;
     font-family: MyWebFont;
+    font-size: 32px;
+}
+
+svg {
     
-   }
+    font-family: MyWebFont;
+    font-size: 40px;
+    display: flex;
+}
+
+path {
+    fill: transparent;
+}
+
+text {
+    fill: #181717;
+}
+
+.flex-item2 {
+    max-width: 300px;
+    background-image: url(/foto/nude1.png);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    margin: 25px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+
+}
+
+.p1{
+    font-family: myFirstFont;
+    font-size: 60px;
+    display: flex;
+}
 
 
-.flex-item2{
+.flex-item2 {
     max-width: 300px;
     background-image: url(/foto/nude2.png);
-    width:100%; height:300px;
+    width: 100%;
+    height: 300px;
     background-position: center;
     margin: 25px;
     padding: 1px;
- }
+}
 
- .flex-item3{
+.flex-item3 {
     max-width: 300px;
     background-image: url(/foto/nude3.png);
-    width:100%; height:300px;
+    width: 100%;
+    height: 300px;
     background-position: center;
     margin: 25px;
     padding: 1px;
- }
+}
