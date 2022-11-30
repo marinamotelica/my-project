@@ -1,0 +1,55 @@
+.flex-container{
+ position: relative;
+ border: 1px solid blueviolet;
+ height: 600px;
+ background-image: url(/foto/nude3.png);
+ width: 100%;
+max-width: 960px;
+margin: 0 auto;
+
+}
+.text{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 32px;
+     
+}
+
+.flex-item1{
+    position: absolute;
+    border: 1px solid rgb(163, 45, 45);
+    top:50px;
+    right: 10%;
+    width: 150px;
+    height: 450px;
+
+
+}
+
+.flex-item2{
+    position: absolute;
+    border: 1px solid rgb(163, 45, 45);
+    top:50px;
+    left: 10%;
+    width: 150px;
+    height: 450px;
+    
+}
+
+.flex-item3{
+    position: absolute;
+    border: 1px solid rgb(163, 45, 45);
+    top: 50px;
+    left: 30%;
+    width: 150px;
+    height: 450px;
+}
+
+.flex-item4{
+    position: absolute;
+    border: 1px solid rgb(163, 45, 45);
+    top: 50px;
+    right: 30%;
+    width: 150px;
+    height: 450px;
+}
