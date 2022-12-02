@@ -118,3 +118,10 @@ accent-color: yellow;
 .social-madia{
   padding-right: 10px;
 }
+
+.social-media{
+  padding-left: 5px;
+}
+.card{
+  border: none;
+}
