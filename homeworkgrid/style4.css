@@ -1,0 +1,44 @@
+.grid-container{
+    display: grid;
+    width: 100%;
+    border: 1px solid blueviolet;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: repeat (4, 1fr);
+    gap: 10px;
+    grid-template-rows: auto;
+    /* grid-template-areas: 
+     "1 1 1 1"
+     "2 2 2 2"
+     "3 3 3 3"
+     "4 4 4 4" 
+     "5 5 5 5"; */
+     grid-template-areas: "myarea myarea myarea myarea"
+    "area area . side"
+    "top top top top ";
+}
+
+.grid-item1 {
+    background-color: blue;
+    margin: 10px;
+    height: 200px;
+    grid-area: myarea;
+}
+.grid-item2 {
+    background-color: rgb(235, 49, 188);
+    margin: 10px;
+    height: 250px;
+    grid-area: area;
+}
+.grid-item3 {
+    background-color: rgb(9, 175, 59);
+    margin: 10px;
+    height: 250px;
+    grid-area: side;
+}
+
+.grid-item4 {
+    background-color: rgb(236, 233, 24);
+    margin: 10px;
+    height: 250px;
+    grid-area: top;
+}
