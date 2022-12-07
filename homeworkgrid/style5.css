@@ -1,0 +1,44 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    }
+    
+.grid-container div{
+    height: 200px;
+}
+.div1{
+    background-color: aqua;
+
+}
+.div2{
+    background-color: rgb(169, 34, 196);
+
+}
+.div3{
+    background-color: rgb(248, 110, 31);
+
+}
+.div4{
+    background-color: rgb(250, 35, 53);
+
+}
+.div5{
+    background-color: rgb(214, 235, 30);
+
+}
+.div6{
+    background-color: rgb(34, 218, 34);
+
+}
+.div7{
+    background-color: rgb(34, 31, 185);
+
+}
+.div8{
+    background-color: rgb(228, 72, 150);
+
+}

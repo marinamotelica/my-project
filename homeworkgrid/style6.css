@@ -1,0 +1,42 @@
+.grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    grid-template-areas: 
+    "area1 area1 area1 area2"
+    "area4 area4 area3 area2"
+    "area4 area4 area3 area2"
+    ;
+    } 
+
+       
+.grid-container div{
+    height: 200px;
+}
+    .div1{
+        background-color: aqua;
+        grid-area: area1;
+    
+    }
+    
+    .div2{
+        background-color: rgb(40, 29, 204);
+        grid-area: area2;
+    
+    }
+    
+    .div3{
+        background-color: rgb(48, 243, 30);
+        grid-area: area3;
+    
+    }
+    
+    .div4{
+        background-color: rgba(205, 238, 15, 0.842);
+        grid-area: area4;
+    
+    }
+
